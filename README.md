@@ -3,9 +3,8 @@
 ### 🚀 Project Overview
 StationGuardian is an AI-powered application designed to assist astronauts in rapidly identifying vital safety equipment (like Oxygen Tanks and Fire Extinguishers) aboard the International Space Station, particularly during low-visibility emergencies.
 
-This project was built for the **Xenith Hackathon: Safety Object Detection #2**.
-
----
+This project was built for the **Error 404: Beyond the Limit Hackathon: Safety Object Detection #2**.
+Created By Chintamani Joshi, Soham Malekar, Mitansh Jain.
 
 ### 🛠️ Setup & Installation
 Follow these steps to reproduce the results on your local machine.
