@@ -1,0 +1,27 @@
+---
+
+### 📦 4. The Bonus "Proposal" Document
+
+**Project Title:** StationGuardian - Real-Time Safety Augmentation
+**Team:** Algorithm_Rangers
+
+**1. The Problem:**
+In emergency scenarios on the ISS (e.g., smoke filling the cabin), visual identification of safety gear becomes difficult. Astronauts need a digital overlay to highlight critical equipment instantly.
+
+**2. The Application:**
+StationGuardian runs on standard tablets. It processes the camera feed using our trained YOLOv8 model to draw bounding boxes around 7 types of safety equipment.
+
+**3. Maintaining Relevance with Falcon (Bonus):**
+The ISS is constantly evolving. When new tools are sent to space, we cannot easily take thousands of photos of them in zero-gravity for training.
+* **Solution:** We use **Duality Falcon** to generate digital twins of the new equipment.
+* **Workflow:**
+    1.  New equipment 3D model is loaded into Falcon.
+    2.  Falcon generates 5,000 synthetic images with varied lighting/angles.
+    3.  StationGuardian pipeline automatically retrains the model.
+    4.  New model weights (`best.pt`) are pushed to the station devices.
+
+---
+
+### ✅ Final Submission Checklist
+1.  **Zip It:** Compress the entire `StationGuardian_Submission` folder into a `.zip` file[cite: 231].
+2.  **Upload:** Upload the zip to your GitHub repository (or push the code if you know git).

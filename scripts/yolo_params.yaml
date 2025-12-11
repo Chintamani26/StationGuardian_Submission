@@ -1,0 +1,20 @@
+# Root path for Training/Validation only
+path: C:/Users/Chintamani/Downloads/hackathon2_train_2/train_2
+
+# Train and Val (Relative to the path above)
+train: train2/images
+val: val2/images
+
+# Test Path (ABSOLUTE PATH because it is in a different folder)
+# I used the path you provided: C:\Users\Chintamani\Downloads\Hackathon2_test1\test1\images
+test: C:/Users/Chintamani/Downloads/Hackathon2_test1/test1/images
+
+nc: 7
+names:
+  0: OxygenTank
+  1: NitrogenTank
+  2: FirstAidBox
+  3: FireExtinguisher
+  4: SafetySwitchPanel
+  5: FireAlarm
+  6: EmergencyPhone
