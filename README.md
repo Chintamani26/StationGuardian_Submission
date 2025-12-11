@@ -18,7 +18,7 @@ Follow these steps to reproduce the results on your local machine.
 **2. Installation**
 ```bash
 # Clone the repository
-git clone [YOUR_GITHUB_LINK_HERE]
+git clone https://github.com/Chintamani26/StationGuardian_Submission
 cd StationGuardian_Submission
 
 # Install dependencies
